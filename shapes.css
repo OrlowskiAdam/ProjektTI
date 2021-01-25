@@ -1,0 +1,53 @@
+.square {
+    z-index: -1;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+}
+
+.square1 {
+    top: 50%;
+    left: 18%;
+    transform: rotate(20deg);
+    background-color: #F0E271;
+}
+
+.square2 {
+    top: 25%;
+    left: 70%;
+    transform: rotate(65deg);
+    background-color: #3493A3;
+}
+
+.square3 {
+    top: 70%;
+    left: 50%;
+    transform: rotate(50deg);
+    background-color: #F0599D;
+}
+
+.circle {
+    z-index: -1;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.circle1 {
+    top: 5%;
+    left: 10%;
+    background-color: #F0599D;
+}
+
+.circle2 {
+    top: 80%;
+    left: 25%;
+    background-color: #3493A3;
+}
+
+.circle3 {
+    top: 70%;
+    left: 80%;
+    background-color: #F0E271;
+}

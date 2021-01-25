@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="shapes.css">
+</head>
+<body>
+<div class="square square1"></div>
+<div class="square square2"></div>
+<div class="square square3"></div>
+<div class="circle circle1"></div>
+<div class="circle circle2"></div>
+<div class="circle circle3"></div>
+<div class="container">
+    <div class="intro">
+        <h1>todo list</h1>
+        <p>Projekt: Adam Orłowski</p>
+    </div>
+    <hr>
+    <div class="main">
+        <form id="form">
+            <label for="task-title-input">Task title</label>
+            <input id="task-title-input" type="text" placeholder="Enter task title" name="title"><br>
+            <br>
+            <label for="task-description-input">Task description</label>
+            <textarea id="task-description-input" placeholder="Enter task description"
+                      name="description"></textarea><br>
+
+            <input type="submit" value="Add"/>
+        </form>
+        <p id="validation-error">
+            <img class="err-img" src="img/error-icon.png" alt="err">
+            Title and description cannot be empty!
+            <img class="err-img" src="img/error-icon.png" alt="err">
+        </p>
+    </div>
+    <hr>
+    my todos:
+    <div class="task-wrapper">
+        <div class="task-margin">
+            <dl id="tasks">
+                <!-- TODOS HERE -->
+            </dl>
+        </div>
+    </div>
+</div>
+<script src="util.js"></script>
+<script src="behaviour.js"></script>
+<script src="loadTodos.js"></script>
+</body>
+</html>
